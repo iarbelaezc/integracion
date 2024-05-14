@@ -5,6 +5,7 @@ numpy
 opencv-python-headless
 Pillow
 tensorflow==2.12
+geopandas
 
 
 ultralytics==8.0.173
