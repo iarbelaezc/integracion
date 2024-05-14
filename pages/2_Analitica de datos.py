@@ -7,7 +7,7 @@ import json
 
 st.title("Analítica de datos")
 
-with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016 (1).geojson', "r") as read_file:
+with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016.geojson', "r") as read_file:
     data = json.load(read_file)
 
 st.title("Accidentalidad Municipio de Medellín 2016")
