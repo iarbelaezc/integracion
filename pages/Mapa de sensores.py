@@ -90,11 +90,11 @@ St.write("Existen varios tipos de sensores utilizados para medir la calidad del 
 st.header("Sensores de partículas (PM)")
 st.write("Estos sensores miden la concentración de partículas suspendidas en el aire, como el polvo, el humo, el polen, el hollín y otros contaminantes sólidos. Los sensores de partículas pueden clasificarse según el tamaño de las partículas que son capaces de detectar, como PM10 (partículas con un diámetro aerodinámico de 10 micrómetros o menos) y PM2.5 (partículas con un diámetro aerodinámico de 2.5 micrómetros o menos).")
 st.header("Sensores de gases")
-st.write("Monóxido de carbono (CO): Estos sensores detectan la concentración de monóxido de carbono en el aire, un gas incoloro e inodoro producido por la combustión incompleta de combustibles fósiles.
-Dióxido de azufre (SO2): Detectan la concentración de dióxido de azufre en el aire, un gas generado principalmente por la quema de combustibles fósiles que contiene azufre.
-Dióxido de nitrógeno (NO2): Estos sensores miden la concentración de dióxido de nitrógeno en el aire, un subproducto de la combustión de combustibles fósiles que contribuye a la formación de smog y lluvia ácida.
-Óxidos de nitrógeno (NOx): Pueden detectar tanto el dióxido de nitrógeno (NO2) como el monóxido de nitrógeno (NO), que son productos de la combustión a alta temperatura.
-Ozono (O3): Los sensores de ozono miden la concentración de ozono en el aire, un gas que puede ser perjudicial para la salud humana y el medio ambiente cuando se encuentra en niveles elevados en la atmósfera.")
+st.write("Monóxido de carbono (CO): Estos sensores detectan la concentración de monóxido de carbono en el aire, un gas incoloro e inodoro producido por la combustión incompleta de combustibles fósiles.")
+st.write("Dióxido de azufre (SO2): Detectan la concentración de dióxido de azufre en el aire, un gas generado principalmente por la quema de combustibles fósiles que contiene azufre.")
+st.write("Dióxido de nitrógeno (NO2): Estos sensores miden la concentración de dióxido de nitrógeno en el aire, un subproducto de la combustión de combustibles fósiles que contribuye a la formación de smog y lluvia ácida.")
+st.write("Óxidos de nitrógeno (NOx): Pueden detectar tanto el dióxido de nitrógeno (NO2) como el monóxido de nitrógeno (NO), que son productos de la combustión a alta temperatura.")
+st.write("Ozono (O3): Los sensores de ozono miden la concentración de ozono en el aire, un gas que puede ser perjudicial para la salud humana y el medio ambiente cuando se encuentra en niveles elevados en la atmósfera.")
 
 image= Image.open('contaminantes.jpg')
 st.image(image,caption='Principales contaminantes')
