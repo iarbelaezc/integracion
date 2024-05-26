@@ -10,16 +10,15 @@ st.title("Analítica de datos")
 with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016.geojson', "r") as read_file:
     data = json.load(read_file)
 
-st.title("Accidentalidad Municipio de Medellín 2016")
+st.title("Localización de sensores de calidad del aire en Medellín")
 
-st.write('Se entiende por accidente de tránsito evento, generalmente involuntario, generado al menos por un un vehículo en movimiento, que causa daños a '
-         'personas y bienes involucrados en él, e igualmente afecta la normal circulación de los vehículos que se movilizan por la vía o vías comprendidas en el '
-         'lugar o dentro de la zona de influencia del hecho0 (Ley 769 de 2002 - Código Nacional de Tránsito)'
-         )
+st.write("En este mapa encontrarás sensores de calidad del aire, los cuales miden la contaminación, según el material particulado PM2.5. Y el ozono del aire")
 image= Image.open('accidentes.jpg')
 st.image(image,caption='Accidentalidad')
 
-st.subheader('Sistema de consulta de Accidentalidad municipio de Medellín')
+st.subheader('Sistema de consulta de sensores de calidad del aire')
+st.write("Si desea conocer más información acerca de la calidad del aire en el Valle de Aburrá y otros fenómenos metereológicos, los invitamos a consultar la página del SIATA")
+st.write("SIATA")
 
 La = []
 Lo = []
@@ -87,15 +86,3 @@ except:
 # Mostrar un mapa con los incidentes filtrados
 st.map(df_filtrado)
 
-def main():
-    st.title("Visualizador de página web externa")
-    
-    # Inserta el URL de la página que deseas mostrar
-    url = "https://siata.gov.co/siata_nuevo/"
-    
-    # Usa el componente iframe para mostrar la página web dentro de tu aplicación
-    st.write(f"Mostrando página web: {url}")
-    st.components.v1.iframe(url, height=800)
-
-if __name__ == "__main__":
-    main()
