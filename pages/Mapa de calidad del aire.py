@@ -18,7 +18,7 @@ st.image(image,caption='Accidentalidad')
 
 st.subheader('Sistema de consulta de sensores de calidad del aire')
 st.write("Si desea conocer más información acerca de la calidad del aire en el Valle de Aburrá y otros fenómenos metereológicos, los invitamos a consultar la página del SIATA")
-st.write("SIATA")
+st.write("SIATA [link] (https://demo.thingsboard.io/dashboards/221eb150-db1f-11ee-bc03-55147b89654f)")
 
 La = []
 Lo = []
