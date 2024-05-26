@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL import Image 
+
 st.title("Introduccíón al sistema")
 
 st.header("¿Qué hacemos?")
@@ -12,6 +14,9 @@ st.write("Por medio de diferentes sistemas como conectar sensores a internet, an
 st.header("¿Qué es la calidad del aire?")
 
 st.write("La calidad del aire se refiere a la medida de contaminantes presentes en el aire que respiramos, y cómo estos contaminantes pueden afectar la salud humana, animal y el medio ambiente en general. Estos contaminantes pueden incluir gases, partículas sólidas o líquidas en suspensión, compuestos químicos, entre otros.")
+
+image= Image.open('contaminantes.jpg')
+st.image(image,caption='Principales contaminantes')
 
 st.write("La calidad del aire se evalúa mediante la medición de la concentración de diversos contaminantes en el aire, como el dióxido de carbono (CO2), el dióxido de azufre (SO2), el monóxido de carbono (CO), los óxidos de nitrógeno (NOx), el ozono (O3), las partículas en suspensión (PM10, PM2.5), entre otros. Estos contaminantes pueden provenir de diversas fuentes, como la quema de combustibles fósiles, la industria, el transporte, la agricultura, entre otros.")
 
