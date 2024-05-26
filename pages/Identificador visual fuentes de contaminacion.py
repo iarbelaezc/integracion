@@ -18,10 +18,6 @@ st.title("Inteligencia artificial")
 def encode_image(image_file):
     return base64.b64encode(image_file.getvalue()).decode("utf-8")
 
-
-st.header("Encuentra fuentes de contaminación")
-st.write("Ingresa imágenes para identificar fuentes de contaminación")
-
 # Initialize the OpenAI client with the API key
 client = OpenAI(api_key=api_key)
 
