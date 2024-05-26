@@ -3,14 +3,6 @@ import streamlit as st
 import base64
 from openai import OpenAI
 
-st.title("Inteligencia artificial")
-
-
-# Function to encode the image to base64
-def encode_image(image_file):
-    return base64.b64encode(image_file.getvalue()).decode("utf-8")
-
-
 st.set_page_config(page_title="Analisis dde imagen", layout="centered", initial_sidebar_state="collapsed")
 # Streamlit page setup
 st.title("Análisis de Imagen:🤖🏞️")
@@ -18,6 +10,13 @@ st.title("Análisis de Imagen:🤖🏞️")
 ke = st.text_input('Ingresa tu Clave')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
+
+st.title("Inteligencia artificial")
+
+
+# Function to encode the image to base64
+def encode_image(image_file):
+    return base64.b64encode(image_file.getvalue()).decode("utf-8")
 
 
 st.header("Encuentra fuentes de contaminación")
