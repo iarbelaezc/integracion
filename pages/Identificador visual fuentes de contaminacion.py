@@ -7,12 +7,13 @@ st.set_page_config(page_title="Analisis de imagen", layout="centered", initial_s
 # Streamlit page setup
 st.title("Análisis de Imagen:🤖🏞️")
 #st.write(openai.Model.list())
-ke = st.text_input('Ingresa tu Clave')
+st.write("copiar la siguiente clave <sk-proj-oZMtguh0aq4qvFhoggrjT3BlbkFJcfAk8HcaMJd9emfHGBL0>")
+ke = st.text_input('Pega la Clave')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
 
 st.title("Inteligencia artificial")
-
+st.write("Sube una imagen para identificar su fuente de contaminación más próxima")
 api_key = os.environ['OPENAI_API_KEY']
 
 # Function to encode the image to base64
