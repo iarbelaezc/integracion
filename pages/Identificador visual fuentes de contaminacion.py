@@ -19,7 +19,7 @@ def encode_image(image_file):
     return base64.b64encode(image_file.getvalue()).decode("utf-8")
 
 # Initialize the OpenAI client with the API key
-client = OpenAI(ke = ke)
+client = OpenAI(api_key = api_key)
 
 # File uploader allows user to add their own image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
