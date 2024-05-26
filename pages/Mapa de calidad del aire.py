@@ -5,6 +5,19 @@ import numpy as np
 import geopandas as gpd
 import json
 
+def main():
+    st.title("Visualizador de página web externa")
+    
+    # Inserta el URL de la página que deseas mostrar
+    url = "https://siata.gov.co/siata_nuevo/"
+    
+    # Usa el componente iframe para mostrar la página web dentro de tu aplicación
+    st.write(f"Mostrando página web: {url}")
+    st.components.v1.iframe(url, height=800)
+
+if __name__ == "__main__":
+    main()
+    
 st.title("Analítica de datos")
 
 with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016.geojson', "r") as read_file:
