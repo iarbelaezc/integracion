@@ -86,7 +86,7 @@ except:
 # Mostrar un mapa con los incidentes filtrados
 st.map(df_filtrado)
 
-St.write("Existen varios tipos de sensores utilizados para medir la calidad del aire, cada uno diseñado para detectar diferentes contaminantes y proporcionar información sobre la composición y concentración de los mismos. Algunos de los tipos de sensores más comunes para medir la calidad del aire son:")
+st.write("Existen varios tipos de sensores utilizados para medir la calidad del aire, cada uno diseñado para detectar diferentes contaminantes y proporcionar información sobre la composición y concentración de los mismos. Algunos de los tipos de sensores más comunes para medir la calidad del aire son:")
 st.header("Sensores de partículas (PM)")
 st.write("Estos sensores miden la concentración de partículas suspendidas en el aire, como el polvo, el humo, el polen, el hollín y otros contaminantes sólidos. Los sensores de partículas pueden clasificarse según el tamaño de las partículas que son capaces de detectar, como PM10 (partículas con un diámetro aerodinámico de 10 micrómetros o menos) y PM2.5 (partículas con un diámetro aerodinámico de 2.5 micrómetros o menos).")
 st.header("Sensores de gases")
