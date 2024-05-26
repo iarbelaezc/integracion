@@ -88,9 +88,9 @@ if uploaded_file is not None and api_key and analyze_button:
         try:
             # Without Stream
             
-             response = client.chat.completions.create(
-                 model="gpt-4-vision-preview", messages=messages, max_tokens=500, stream=False
-             )
+             #response = client.chat.completions.create(
+              #   model="gpt-4-vision-preview", messages=messages, max_tokens=500, stream=False
+             #)
     
             # Stream the response
             full_response = ""
