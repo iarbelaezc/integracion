@@ -13,6 +13,7 @@ os.environ['OPENAI_API_KEY'] = ke
 
 st.title("Inteligencia artificial")
 
+api_key = os.environ['OPENAI_API_KEY']
 
 # Function to encode the image to base64
 def encode_image(image_file):
