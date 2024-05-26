@@ -19,6 +19,8 @@ image= Image.open('contaminantes.jpg')
 st.image(image,caption='Principales contaminantes')
 
 st.write("La calidad del aire se evalúa mediante la medición de la concentración de diversos contaminantes en el aire, como el dióxido de carbono (CO2), el dióxido de azufre (SO2), el monóxido de carbono (CO), los óxidos de nitrógeno (NOx), el ozono (O3), las partículas en suspensión (PM10, PM2.5), entre otros. Estos contaminantes pueden provenir de diversas fuentes, como la quema de combustibles fósiles, la industria, el transporte, la agricultura, entre otros.")
+image= Image.open('FuentesContaminacion.jpg')
+st.image(image,caption='Fuentes de contaminación en el Valle de Aburrá')
 
 st.write("La calidad del aire es importante para la salud humana, ya que la inhalación de aire contaminado puede causar una serie de problemas respiratorios y de salud, como enfermedades cardiovasculares, problemas respiratorios crónicos, exacerbación de alergias, asma, entre otros. Además, la contaminación del aire también puede afectar la vegetación, los ecosistemas acuáticos y terrestres, y contribuir al cambio climático.")
 
