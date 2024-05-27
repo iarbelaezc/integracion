@@ -26,7 +26,7 @@ st.write("El Valle de Aburrá, ubicado en la región andina de Colombia y donde 
 st.Header("Inversión térmica:")
 st.write("Frecuencia y severidad: El Valle de Aburrá experimenta frecuentes eventos de inversión térmica debido a su geografía montañosa. Durante una inversión térmica, una capa de aire cálido se superpone a una capa de aire frío más cercana al suelo, atrapando los contaminantes en la superficie y dificultando su dispersión. Esto puede llevar a altos niveles de contaminación del aire, especialmente durante las horas de la mañana y en las noches frías.")
 st.header("Relieve montañoso:")
-st.write"Efecto de cuenca: La forma de cuenca del valle dificulta la dispersión de los contaminantes, especialmente en condiciones de calma atmosférica. Los vientos débiles no logran mover eficientemente el aire fuera del valle, lo que contribuye a la acumulación de contaminantes.")
+st.write("Efecto de cuenca: La forma de cuenca del valle dificulta la dispersión de los contaminantes, especialmente en condiciones de calma atmosférica. Los vientos débiles no logran mover eficientemente el aire fuera del valle, lo que contribuye a la acumulación de contaminantes.")
 st.header("Vientos:")
 st.write("Dirección y velocidad: Los patrones de viento en el Valle de Aburrá influyen en cómo se dispersan los contaminantes. Los vientos que bajan desde las montañas pueden empujar los contaminantes hacia la ciudad y dificultar su dispersión. Por otro lado, vientos más fuertes pueden ayudar a dispersar los contaminantes y mejorar temporalmente la calidad del aire.")
 st.write("¡Nota para Carlos Mario! Profe si usted se está tomando el tiempo de leer esto, quiero que sepa que lo quiero mucho.")
