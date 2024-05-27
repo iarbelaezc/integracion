@@ -23,7 +23,7 @@ st.image(image,caption= 'Valle de Aburrá')
 st.title("El caso de Medellín y el Valle de Aburrá")
 st.write("El Valle de Aburrá, ubicado en la región andina de Colombia y donde se encuentra la ciudad de Medellín, tiene características geográficas y meteorológicas que influyen notablemente en la calidad del aire de la región. A continuación, se describen algunas de las principales formas en que las condiciones meteorológicas afectan la calidad del aire en el Valle de Aburrá:")
 
-st.Header("Inversión térmica:")
+st.header("Inversión térmica:")
 st.write("Frecuencia y severidad: El Valle de Aburrá experimenta frecuentes eventos de inversión térmica debido a su geografía montañosa. Durante una inversión térmica, una capa de aire cálido se superpone a una capa de aire frío más cercana al suelo, atrapando los contaminantes en la superficie y dificultando su dispersión. Esto puede llevar a altos niveles de contaminación del aire, especialmente durante las horas de la mañana y en las noches frías.")
 st.header("Relieve montañoso:")
 st.write("Efecto de cuenca: La forma de cuenca del valle dificulta la dispersión de los contaminantes, especialmente en condiciones de calma atmosférica. Los vientos débiles no logran mover eficientemente el aire fuera del valle, lo que contribuye a la acumulación de contaminantes.")
