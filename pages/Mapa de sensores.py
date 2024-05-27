@@ -13,8 +13,8 @@ with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016.geojson', "r"
 st.title("Localización de sensores de calidad del aire en Medellín")
 
 st.write("En este mapa encontrarás sensores de calidad del aire, los cuales miden la contaminación, según el material particulado PM2.5. Y el ozono del aire")
-image= Image.open('accidentes.jpg')
-st.image(image,caption='Accidentalidad')
+image= Image.open('sensores.png')
+st.image(image,caption='Soluciones para medir la calidad del aire, imágen ilustrativa.')
 
 st.subheader('Sistema de consulta de sensores de calidad del aire')
 st.write("Si desea conocer más información acerca de la calidad del aire en el Valle de Aburrá y otros fenómenos metereológicos, los invitamos a consultar la página del SIATA")
